@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rea-native",
+  "version": "0.1.6",
+  "description": "Official REA engine with automatic intake and evidence-to-build workflows for native Codex.",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "REA Native",
+        "shortDescription": "Inspect, rebuild, verify",
+        "longDescription": "A native Codex workbench built on the official REA engine. Give it a repository, website, package or binary. It routes inspection, preserves evidence and uncertainty, develops an interface and behavior specification, and guides Codex through implementation and finite parity tests in the current session. Untrusted target code never runs automatically.",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Understand this target and build our own version with evidence and parity tests."
+        ],
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg"
+      },
+      "requires_local_executor": true,
+      "publication": {
+        "release_notes": "Initial native Codex workbench based on integrity-verified REA 6.5.0; automatic intake, bounded source inventory, evidence-linked build specifications and finite parity accounting."
+      }
+    }
+  }
+}

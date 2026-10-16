@@ -1,0 +1,43 @@
+[
+  {
+    "items": [
+      "Alpha",
+      "Beta",
+      "alphabet"
+    ],
+    "query": " ALP "
+  },
+  {
+    "items": [
+      "Alpha",
+      "Beta"
+    ],
+    "query": ""
+  },
+  {
+    "items": [
+      "Alpha",
+      "Beta"
+    ],
+    "query": "  "
+  },
+  {
+    "items": [
+      "Alpha",
+      "Beta"
+    ],
+    "query": "z"
+  },
+  {
+    "items": [
+      "x",
+      "x",
+      "X"
+    ],
+    "query": "x"
+  },
+  {
+    "items": [],
+    "query": "x"
+  }
+]

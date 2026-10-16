@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.env*
+.app.json
+runtime.json
+dependencies.json
+research/
+evidence/
+acceptance/

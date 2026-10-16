@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "rea": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/server/gateway.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

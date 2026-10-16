@@ -1,0 +1,49 @@
+{
+  "version": "0.1.6",
+  "integration_tests": {
+    "passed": 18,
+    "command": "python3 -m unittest discover -s tests -v",
+    "scope": "Authored workbench/gateway safety, protocol, discovery and evidence-state contracts"
+  },
+  "native_acceptance": {
+    "client": "bundled native CLI 0.162.0-alpha.17.2",
+    "temporary_model": "gpt-6-luna",
+    "explicit_skill_or_plugin_name_in_prompt": false,
+    "automatic_skill_read": true,
+    "completed_calls": [
+      "a_rebuild:route_target",
+      "a_rebuild:inspect_local",
+      "analyze_javascript_application",
+      "a_rebuild:prepare_build",
+      "a_rebuild:assess_parity"
+    ],
+    "implementation_tests_passed": 6,
+    "original_executed_during_model_test": false,
+    "parity_during_model_test": {
+      "passed": 0,
+      "blocked": 1
+    },
+    "saved_configuration_restored_exactly": true
+  },
+  "separate_differential_check": {
+    "owned_fixture": "rea-native/examples/js-fixture/search.js",
+    "original_sha256": "7a546be642e5480fb47adb5186f36f7f826f605c7a2285a00de40213e566c7e6",
+    "reconstruction": "verification/owned-search/search.py",
+    "reconstruction_sha256": "015ad796d1afa60eb666d641ff9db47230041b917a6e0ffe402677161a8fe9ea",
+    "original_and_reconstruction_actually_executed": true,
+    "identical_ascii_cases": 6,
+    "matches": 6,
+    "node_version": "v24.21.0",
+    "global_parity": "unknown",
+    "unicode_and_invalid_inputs": "unverified"
+  },
+  "source_trust": {
+    "upstream": "https://github.com/morluto/rea",
+    "version": "6.5.0",
+    "commit": "3b79af28e80785afce9f5998d8f03289402a1847",
+    "archive_integrity": "Matched registry SHA512",
+    "sigstore_signature_chain": "Not independently verified"
+  },
+  "private_data": "Private machine paths, account identifiers, session logs, credentials and real target source/assets excluded",
+  "directory_state": "Not submitted; partner eligibility, runtime bundling and separate listing requirements unresolved"
+}

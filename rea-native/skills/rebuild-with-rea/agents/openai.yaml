@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rebuild with REA"
+  short_description: "Inspect a target, build and test"
+  default_prompt: "Understand this target and build our own version in this Codex session with evidence and finite parity tests."
+policy:
+  allow_implicit_invocation: true

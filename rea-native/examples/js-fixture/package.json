@@ -1,0 +1,7 @@
+{
+  "name": "rea-native-owned-search-fixture",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": "./search.js"
+}
